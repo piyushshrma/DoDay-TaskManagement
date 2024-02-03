@@ -218,3 +218,6 @@ body.dark h1, body.dark .support a {color: #fff;}
 .support a:hover{
   transform: scale(1.1);
 }
+#copyright{
+	font-color : white;
+}
