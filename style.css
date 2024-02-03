@@ -219,5 +219,9 @@ body.dark h1, body.dark .support a {color: #fff;}
   transform: scale(1.1);
 }
 .copyright{
-	font-color : white;
+    color: red;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: 300;
 }
