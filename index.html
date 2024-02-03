@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoDay - Task Management</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="dark-mode-toggle">
+            <label for="dark-mode-switch"></label>
+            <button id="dark-mode-switch" onclick="toggleDarkMode()">Toggle</button>
+        </div>
+        <h1>DoDay - Task Management</h1>
+        <div id="task-form">
+            <!-- Task form elements go here -->
+        </div>
+        <div id="task-list">
+            <div id="incomplete-task-list" class="task-list">
+                <h2>Incomplete Tasks</h2>
+                <!-- Incomplete task elements go here -->
+            </div>
+            <div id="completed-task-list" class="task-list">
+                <h2>Completed Tasks</h2>
+                <!-- Completed task elements go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
